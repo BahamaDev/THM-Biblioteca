@@ -74,6 +74,8 @@ D --> E[Lateral Movement]
 E --> F[Privilege Escalation]
 F --> G[Root Access]
 
+```
+
 ---
 
 ## 🧰 Tools Used
