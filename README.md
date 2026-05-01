@@ -6,6 +6,7 @@ Biblioteca Case Study
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-blue)
 ![Level](https://img.shields.io/badge/Impact-Critical-darkred)
 
+🚨 **Result:** Achieved full system compromise (root access) from an unauthenticated external position.
 ---
 
 ## 📌 Overview
@@ -70,3 +71,24 @@ C --> D[Credential Reuse]
 D --> E[Lateral Movement]
 E --> F[Privilege Escalation]
 F --> G[Root Access]
+
+---
+  
+## 🧰 Tools Used
+
+- Nmap
+- Nikto
+- SQLMap
+- Burp Suite
+- Linux Privilege Escalation Techniques
+
+
+---
+
+
+## 🧠 Lessons Learned
+
+- Chaining multiple low-to-critical vulnerabilities leads to full compromise
+- Weak authentication controls significantly reduce attack complexity
+- Input validation failures remain one of the most critical web security risks
+- Misconfigured privilege controls can escalate minor access into total system compromise
