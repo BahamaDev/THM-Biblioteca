@@ -78,6 +78,19 @@ F --> G[Root Access]
 
 ---
 
+## 📸 Evidence
+
+### SQL Injection (Authentication Bypass)
+![SQL Injection](images/sqli.png)
+
+### Service Enumeration (Nmap Scan)
+![Nmap Scan](images/nmap.png)
+
+### Privilege Escalation (Root Access)
+![Privilege Escalation](images/privesc.png)
+
+---
+
 ## 🧰 Tools Used
 
 - Nmap
