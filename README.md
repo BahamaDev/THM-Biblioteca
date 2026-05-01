@@ -2,11 +2,13 @@
 Biblioteca Case Study
 # 🔐 Penetration Testing Case Study: THM Biblioteca
 
+🚨 **Result:** Achieved full system compromise (root access) from an unauthenticated external position.
+
 ![Security](https://img.shields.io/badge/Security-Penetration%20Testing-red)
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-blue)
 ![Level](https://img.shields.io/badge/Impact-Critical-darkred)
 
-🚨 **Result:** Achieved full system compromise (root access) from an unauthenticated external position.
+
 ---
 
 ## 📌 Overview
@@ -72,10 +74,8 @@ D --> E[Lateral Movement]
 E --> F[Privilege Escalation]
 F --> G[Root Access]
 
-
 ---
 
-  
 ## 🧰 Tools Used
 
 - Nmap
